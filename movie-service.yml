@@ -12,7 +12,7 @@ spring:
 server:
   servlet:
     context-path: /cinema/api/v1
-  port: 9060
+  port: 9070
 eureka:
   client:
     serviceUrl:
