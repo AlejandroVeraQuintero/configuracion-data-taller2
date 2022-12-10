@@ -13,15 +13,7 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: product-service
-          uri: lb://product-service
-          predicates:
-            - Path=/cinema/api/v1/products/**
         - id: user-service
           uri: lb://user-service
           predicates:
-            - Path=/cinea/api/v1/customers/**
-        - id: shopping-service
-          uri: lb://shopping-service
-          predicates:
-            - Path=/cinema/api/v1/shoppings/**
+            - Path=/cinea/api/v1/users/**
