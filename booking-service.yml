@@ -8,11 +8,11 @@ spring:
       client:
         url: http://localhost:9020
         instance:
-          name: showtime API Service
+          name: booking API Service
 server:
   servlet:
     context-path: /cinema/api/v1
-  port: 9080
+  port: 9090
 eureka:
   client:
     serviceUrl:
