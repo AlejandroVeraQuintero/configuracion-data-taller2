@@ -1,6 +1,6 @@
 spring:
   application:
-    name: user-service
+    name:showtime-service
   profiles:
     active: dev
   boot:
